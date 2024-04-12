@@ -4,7 +4,7 @@ def main():
     text = get_book_text(book_path)
     print(text)
 
-#get_book_text() takes
+#get_book_text() takes the PATH to file, and returns the full set of text. 
 def get_book_text(path):
     with open(path) as f:
         return f.read()
