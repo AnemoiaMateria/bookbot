@@ -28,6 +28,7 @@ def get_letter_count(text):
             letter_list[lowered_characters]+=1
     return letter_list
 
+#next assignment: Condense previous two functions (char dict and num words) into a report!
 
 #main() calls the above function as the primary end usage of the program.    
 main()
